@@ -7,7 +7,7 @@ ISO 국제표준화기구에서 컴퓨터의 통신, 네트워크간 상호 접�
 <img src="https://miro.medium.com/max/1400/1*tnEkvHfXNnhv7xAthT2sJQ.png" width = "35%">
 <img src="https://user-images.githubusercontent.com/33534771/74589801-e603cf00-504b-11ea-862c-765c57d3169b.png" width = "35%">
 
-OSI 7계층은 다음과 같이 이루어져 있다. 이중 1~3은 Lower Layer, 4~7은 Upper Layer에 해당되며 각 계층마다 사용하는 프로토콜(통신규약), 기기가 다르다.
+OSI 7계층은 다음과 같이 이루어져 있다. 이중 1 ~ 3은 Lower Layer, 4 ~ 7은 Upper Layer에 해당되며 각 계층마다 사용하는 프로토콜(통신규약), 기기가 다르다.
 
 ```t
 Lower Layer
