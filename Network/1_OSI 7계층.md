@@ -25,7 +25,7 @@ Upper Layer
 ### 계층 별 데이터
 <img src="https://miro.medium.com/max/1400/1*cGvBcdEgSDfHUHNiSTuaNw.png" width = "70%">
 
-데이터 전송 단위: 비트(1계층)-프레임(2)-패킷(3, 4)-메시지(5, 6, 7)
+데이터 전송 단위: 비트(1계층)-프레임(2)-패킷(3)-세그먼트&데이터그램(4)-메시지(5, 6, 7)
 
 
 ### 1계층(물리 계층)
@@ -86,5 +86,8 @@ http://www.incodom.kr/OSI#h_e0b94db87bcbb287fcabaf91095249db
 https://m.blog.naver.com/soojin_2604/221961003092
 
 https://medium.com/harrythegreat/osi%EA%B3%84%EC%B8%B5-tcp-ip-%EB%AA%A8%EB%8D%B8-%EC%89%BD%EA%B2%8C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-f308b1115359
+<<<<<<< HEAD
 
 https://hahahoho5915.tistory.com/12
+=======
+>>>>>>> b78c4287c298d1bae0fd7c6ae24506fc7dc41705
