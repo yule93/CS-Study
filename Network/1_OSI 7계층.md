@@ -1,7 +1,7 @@
 # OSI
-OSI는 Open System Interconnection의 약자로 **개방형 시스템간 상호 접속**을 뜻한다.
-ISO 국제표준화기구에서 컴퓨터의 통신, 네트워크간 상호 접속 용이를 위해 규정한 네트워크 프로토콜로 표준화, 상호 통신이 가능하게 한다.
+OSI는 Open System Interconnection의 약자로 **개방형 시스템간 상호 접속**을 뜻한다. 풀네임은 *Open Systems Interconnection Reference Model.*
 
+ISO 국제표준화기구에서 컴퓨터의 통신, 네트워크간 상호 접속 용이를 위해 규정한 네트워크 프로토콜로 표준화, 상호 통신이 가능하게 한다.
 
 ## OSI 7계층
 <img src="https://miro.medium.com/max/1400/1*tnEkvHfXNnhv7xAthT2sJQ.png" width = "35%">
@@ -36,7 +36,7 @@ Upper Layer
   - 프로토콜: Ethernet, RS-232C, MAC
 
 ### 2계층(데이터 링크 계층)
-포인트 투 포인트(Point to Point)간 신뢰성 있는 전송을 보장하기 위한 계층으로 **CRC 기반 오류 제어와 흐름 제어가 중요하다.** 네트워크 위의 개체들 간 데이터를 전달하고, 물리 계층에서 발생할 수 있는 오류를 찾아내고 수정하는 데 필요한 기능적/절차적 수단을 제공한다.
+포인트 투 포인트(Point to Point)간 신뢰성 있는 전송을 보장하기 위한 계층으로 **CRC(Cycle Redundancyu Check) 기반 오류 제어와 흐름 제어가 중요하다.** 네트워크 위의 개체들 간 데이터를 전달하고, 물리 계층에서 발생할 수 있는 오류를 찾아내고 수정하는 데 필요한 기능적/절차적 수단을 제공한다.
   - 오류 없이 한 장치에서 다른 장치로 프레임(비트의 모음)을 전달하는 역할
   - 사용되는 장비: **브릿지, 스위치(L2~L4, L7: 숫자가 커질 수록 비싸고 성능 좋음)**
   - 데이터 전송 단위: 프레임
@@ -61,7 +61,10 @@ Upper Layer
   - 통신 세션을 구성하는 계층으로, **포트 연결이라고 할 수 있다.**
   - 응용간의 질서 제어
   - 데이터 전송 단위: 메시지
-  - 프로토콜: SSH, TLS(보통 HTTPS와 같이 인증이 필요한 응용 계층 프로토콜에 사용되는 )
+  - 프로토콜: SSH, SSL/TLS(보통 HTTPS와 같이 인증이 필요한 응용 계층 프로토콜에 사용되기도 한다.)
+    - SSH(Secure Shell): 네트워크 상 다른 디바이스에 로그인 or 원격 시스템 명령을 실행하는 등 수행하는 응용 프로그램 혹은 프로토콜을 말한다. 한쌍의 key로 원격지 디바이스와 인증을 거친다.
+    - SSL(Secure Sokets Layer): HTTP 통신 보안을 위해 만들어진 프로토콜. 디지털 인증서를 기반으로 작동하며 SHA와 같은 암호화 알고리즘으로 무결성을 측정한다.
+    - TLS(Transfer Layer Security): SSL 3.0에서 분기된 IETF(Internet Enfineering Task Force. 국제 인터넷 표준화 기구) 프로토콜 표준. SSH Transport 와 User Authentication 프로토콜과 유사한 목적과 기능을 가짐. 암호화를 통해 기밀성, 무결성을 보장하는 양방향 바이트스트림을 제공
     - **세션(Session)**
 
       **네트워크 환경에서 사용자 간 또는 컴퓨터 간 대화를 위한 논리적 연결. 프로세스 사이에 통신을 수행하기 위해 메시지 교환으로 서로를 인식한 후부터 통신을 마칠 때까지의 시간을 일컫는다.**
@@ -86,8 +89,5 @@ http://www.incodom.kr/OSI#h_e0b94db87bcbb287fcabaf91095249db
 https://m.blog.naver.com/soojin_2604/221961003092
 
 https://medium.com/harrythegreat/osi%EA%B3%84%EC%B8%B5-tcp-ip-%EB%AA%A8%EB%8D%B8-%EC%89%BD%EA%B2%8C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-f308b1115359
-<<<<<<< HEAD
 
 https://hahahoho5915.tistory.com/12
-=======
->>>>>>> b78c4287c298d1bae0fd7c6ae24506fc7dc41705
